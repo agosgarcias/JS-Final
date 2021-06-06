@@ -1,0 +1,235 @@
+@charset "UTF-8";
+/*Estilos Generales*/
+body {
+  background-image: url(../imagen/fondo.jpg);
+  background-size: cover;
+  font-family: "Recursive", sans-serif; }
+
+@media only screen and (max-width: 786px) {
+  body {
+    background-image: none;
+    background-color: #fcfcfc; } }
+
+header {
+  background-color: rgba(159, 196, 221, 0.87); }
+
+@media only screen and (max-width: 786px) {
+  header {
+    background-color: none; } }
+
+header h1 {
+  font-family: "Anton", sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 4px;
+  animation-duration: 4s;
+  animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@media only screen and (max-width: 1251px) {
+  header h1 {
+    font-size: 1.7rem; } }
+
+@media only screen and (max-width: 1107px) {
+  header h1 {
+    font-size: 1.5rem; } }
+
+header h3 {
+  text-align: center;
+  font-size: 0.8rem;
+  text-decoration: underline;
+  letter-spacing: 4px; }
+
+@media only screen and (max-width: 1251px) {
+  header h3 {
+    font-size: 0.7rem; } }
+
+@media only screen and (max-width: 1107px) {
+  header h3 {
+    font-size: 0.6rem; } }
+
+@media only screen and (max-width: 617px) {
+  header h3 {
+    font-size: 0.5rem; } }
+
+p {
+  color: black;
+  line-height: 1.6; }
+
+h5 {
+  text-align: center;
+  align-content: center;
+  font-weight: bold; }
+
+a {
+  text-decoration: none; }
+
+/*Footer*/
+footer {
+  display: flex;
+  height: 14rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgba(159, 196, 221, 0.87);
+  justify-content: space-evenly;
+  align-content: center; }
+
+@media only screen and (max-width: 786px) {
+  footer {
+    height: auto; } }
+
+span {
+  align-content: center;
+  text-align: center; }
+
+.footer-col {
+  font-size: medium;
+  font-family: "Recursive", sans-serif;
+  text-align: center; }
+
+@media only screen and (max-width: 786px) {
+  .footer-col {
+    text-align: center;
+    padding: 1em; } }
+
+.ubicacion {
+  width: 100%;
+  height: 100%; }
+
+/*Estilo Inicio*/
+aside h1 {
+  text-align: center;
+  font-family: "Recursive", sans-serif;
+  color: #f3f2f2;
+  background: #323232;
+  background: radial-gradient(circle, rgba(50, 50, 50, 0.936479) 50%, rgba(112, 112, 112, 0.793622) 81%, rgba(255, 255, 255, 0.617151) 95%); }
+
+@media only screen and (max-width: 1251px) {
+  aside h1 {
+    font-size: 1.7rem; } }
+
+@media only screen and (max-width: 1107px) {
+  aside h1 {
+    font-size: 1.5rem; } }
+
+#end {
+  display: grid;
+  grid-template-areas: "Logo Nombre Menu";
+  grid-template-columns: 1fr 2fr 7fr;
+  justify-content: end;
+  justify-items: flex-end; }
+
+@media only screen and (max-width: 986px) {
+  #end {
+    display: grid;
+    grid-template-areas: "Logo Nombre Menu";
+    grid-template-columns: 2fr 3fr 5fr; } }
+
+@media only screen and (max-width: 560px) {
+  #end {
+    display: grid;
+    grid-template-areas: "Logo Nombre Menu";
+    grid-template-columns: 2fr 4fr 4fr; } }
+
+.Logo {
+  grid-area: "Logo"; }
+
+.Nombre {
+  grid-area: "Nombre"; }
+
+.Menu {
+  grid-area: "Menu";
+  display: grid; }
+
+.FuenteNav {
+  font-family: "Recursive", sans-serif; }
+
+.video {
+  width: 100%;
+  padding: 0.5em;
+  margin: 0%;
+  max-width: 831px; }
+
+@media (min-width: 831px) {
+  .video {
+    max-width: 100%; } }
+
+.imglogo {
+  width: 5rem;
+  height: 5rem; }
+
+@media only screen and (max-width: 1248px) {
+  .imglogo {
+    width: 4.5rem;
+    height: 4.5rem; } }
+
+@media only screen and (max-width: 768px) {
+  .imglogo {
+    width: 4rem;
+    height: 4rem; } }
+
+@media only screen and (max-width: 460px) {
+  .imglogo {
+    width: 3.5rem;
+    height: 3.5rem; } }
+
+
+/*Estilo Carrito*/
+#sectionCarrito {
+  background-color: rgb(240, 239, 181);
+  display: none;
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 15%;
+  right: 0;
+  padding-top: 1em;
+  border-top-left-radius: 1em;
+}
+ul { 
+  list-style: none;
+}
+
+
+/*Estilo Main*/
+.card {
+  width: 15rem;
+  align-items: center;
+  padding: 2em;
+  margin: 1em;
+  border-style: hidden;
+  text-align: center;
+  text-transform:capitalize;
+}
+.card-img-top {
+  height: 10em;
+  width: auto;
+}
+.btnProducto {
+  border-radius: 100%;
+  background-color: rgb(238, 250, 69);
+}
+.shop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.title {
+  text-align: center;
+}
+
+/*Estilo Filtros*/
+.btnFiltrar {
+  border-radius: 100%;
+  background-color: rgb(238, 250, 69);
+  border-color: black;
+}
+form {
+  align-content: center;
+}

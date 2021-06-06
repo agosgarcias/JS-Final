@@ -1,0 +1,123 @@
+[
+    {
+        "id": 1,
+        "categoria": "pelotas",
+        "tipo": "tenis",
+        "marca": "wilson",
+        "precio": 1999,
+        "descripcion": "Tubo x3 Roland Garros Premium",
+        "comprado": false,
+        "img": "1.jpg"
+
+    },
+    {
+        "id": 2,
+        "categoria": "pelotas",
+        "tipo": "tenis",
+        "marca": "babolat",
+        "precio": 1299,
+        "descripcion": "Tubo x3 Gold",
+        "comprado": false,
+        "img": "2.jpg"
+
+    },
+    {
+        "id": 3,
+        "categoria": "pelotas",
+        "tipo": "tenis",
+        "marca": "wilson",
+        "precio": 1699,
+        "descripcion": "Tubo x3 Championship Premium",
+        "comprado": false,
+        "img": "3.jpg"
+
+    },
+    {
+        "id": 4,
+        "categoria": "pelotas",
+        "tipo": "tenis",
+        "marca": "prince",
+        "precio": 1199,
+        "descripcion": "Tubo x3 Championship",
+        "comprado": false,
+        "img": "4.jpg"
+
+    },
+    {
+        "id": 5,
+        "categoria": "pelotas",
+        "tipo": "tenis",
+        "marca": "dunlop",
+        "precio": 1320,
+        "descripcion": "Tubo x3 Roland Garros",
+        "comprado": false,
+        "img": "5.jpg"
+
+    },
+    {
+        "id": 6,
+        "categoria": "pelotas",
+        "tipo": "paddle",
+        "marca": "weilepu",
+        "precio": 749,
+        "descripcion": "Tubo x3",
+        "comprado": false,
+        "img": "6.jpg"
+
+    },
+    {
+        "id": 7,
+        "categoria": "pelotas",
+        "tipo": "paddle",
+        "marca": "bullpadel",
+        "precio": 1990,
+        "descripcion": "Tubo x3 Gold",
+        "comprado": false,
+        "img": "7.jpg"
+
+    },
+    {
+        "id": 8,
+        "categoria": "overgrip",
+        "tipo": "tenis",
+        "marca": "wilson",
+        "precio": 1250,
+        "descripcion": "Micro Dry Super absorvente x3",
+        "comprado": false,
+        "img": "8.jpg"
+
+    },
+    {
+        "id": 9,
+        "categoria": "overgrip",
+        "tipo": "tenis",
+        "marca": "prince",
+        "precio": 1056,
+        "descripcion": "Resipro blanco x3",
+        "comprado": false,
+        "img": "9.jpg"
+
+    },
+    {
+        "id": 10,
+        "categoria": "overgrip",
+        "tipo": "tenis",
+        "marca": "babolat",
+        "precio": 350,
+        "descripcion": "My overgrip confort",
+        "comprado": false,
+        "img": "10.jpg"
+
+    },
+    {
+        "id": 11,
+        "categoria": "overgrip",
+        "tipo": "tenis",
+        "marca": "babolat",
+        "precio": 1600,
+        "descripcion": "Pack x3 Pro Tour",
+        "comprado": false,
+        "img": "11.jpg"
+
+    }
+]
